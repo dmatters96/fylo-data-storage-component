@@ -1,0 +1,181 @@
+body {
+  color: #fff;
+  background-color: #0c122c;
+  margin: 0;
+  font-size: 14px;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  color: #0c122c;
+  float: left;
+  margin: 0;
+}
+
+/* containers */
+
+.box {
+  background-color: #1e2c69;
+  padding: 2em;
+  position: absolute;
+  z-index: 1;
+
+}
+.fylo {
+  border-radius: 10px 80px 10px 10px;
+  left: 20em;
+  top: 15em;
+  width: 280px;
+}
+
+
+.progress {
+  right: 20em;
+  border-radius: 10px;
+  top: 16.77em;
+}
+/* images */
+
+.background {
+  width: 100%;
+  margin-top: 300px;
+}
+
+.icon {
+  background-color: #0c122c;
+  margin: 25px 15px 0 0;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.document {
+  padding: 10px 12px;
+}
+
+.folder {
+  padding: 12px 10px;
+}
+
+.upload {
+  padding: 14px 10px;
+}
+
+/* objects */
+
+.progress-bar {
+  width: 455px;
+  height: 16px;
+  background-color: #151d4a;
+  border-radius: 50px;
+}
+.progress-color {
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(to right,hsl(6, 100%, 80%),hsl(335, 100%, 65%));
+  border-radius: 50px;
+  width: 75%;
+  height: 100%;
+}
+
+.progress-dot {
+  background-color: hsl(243, 100%, 93%);
+  position: relative;
+  border-radius: 100%;
+  height: 65%;
+  width: 3%;
+  left: 96%;
+  top: 20%;
+}
+
+.progress-title {
+  margin-top: 0;
+}
+
+.right-label {
+  position: relative;
+  left: 80%;
+}
+
+.left-label {
+  float: left;
+}
+
+.word-box {
+  background-color: #fff;
+  position: absolute;
+  border-radius: 5px;
+  padding: .5em 1em;
+  right: 22em;
+  top: 15em;
+  z-index: 1;
+}
+
+.arrow {
+  border: 18px solid transparent;
+  border-right: 20px solid #fff;
+  position: absolute;
+  z-index: 1;
+  right: 22em;
+  top: 17em;
+}
+
+.sub-heading {
+  float: right;
+  font-size: 12px;
+  color: grey;
+  margin: 5px 0 14px 5px;
+}
+ /* text */
+ .GB {
+   font-weight: 700;
+ }
+
+/* footer */
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+
+@media (max-width: 375px) {
+
+  body {
+    background-image: url("../images/bg-mobile.png");
+  }
+
+  .box {
+    position: static;
+    margin: 20px;
+  }
+/* progress Bar */
+
+  .progress-bar {
+    width: 100%
+  }
+
+  .progress-dot {
+    left: 93%;
+    width: 5%
+  }
+
+  .progress-title {
+    text-align: center;
+  }
+
+  .right-label {
+    left: 70%;
+  }
+/* word box */
+
+  .word-box {
+    top: 23.5em;
+    right: 9em;
+  }
+
+  .arrow {
+    display: none;
+  }
+
+  .background {
+    display: none;
+  }
+
+}
